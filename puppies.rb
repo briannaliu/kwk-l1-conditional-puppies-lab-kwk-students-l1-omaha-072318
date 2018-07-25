@@ -38,7 +38,7 @@ end
 
 def both_animals(puppies, cats)
   if puppies == 0 || cats == 0
-    "Good job, Rachel!"
+    "Good job!"
   elsif puppies >= 1 && cats >= 1
     "Get back to your animal goals!"
   end
