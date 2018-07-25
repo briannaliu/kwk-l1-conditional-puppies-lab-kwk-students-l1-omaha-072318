@@ -40,6 +40,6 @@ def new_animal(puppies, cats)
   if puppies == 0 || cats == 0
     "Good job, Rachel!"
   elsif puppies >= 1 && cats >= 1
-    "Slow down! No more puppies."
+    "Get back to your animal goals!"
   end
 end
