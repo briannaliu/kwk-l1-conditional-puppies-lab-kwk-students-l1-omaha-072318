@@ -38,7 +38,7 @@ end
 
 def new_animal(puppies, cats)
   if puppies == 0 || cats == 0
-    puts "Good job!"
+    puts "Good job, Rachel!"
   elsif puppies >= 1 && cats >= 1
     puts "Slow down! No more puppies."
   end
