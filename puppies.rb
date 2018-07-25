@@ -2,9 +2,9 @@
 
 def no_puppies(puppies)
   if puppies > 0
-    puts "Get back to your animal goals!"
+    "Get back to your animal goals!"
   elsif puppies == 0
-    puts "Good job, Rachel!"
+    "Good job, Rachel!"
   end
 end
 
@@ -13,11 +13,11 @@ end
 
 def less_puppies(puppies)
   if puppies < 3
-    puts "Good job, Rachel!"
+   "Good job, Rachel!"
   elsif puppies == 3
-    puts "Slow down! No more puppies."
+    "Slow down! No more puppies."
   elsif puppies > 3
-    puts "Get back to your animal goals!"
+    "Get back to your animal goals!"
   end
 end
 
@@ -26,9 +26,9 @@ end
 
 def some_puppies(number, maximum)
   if number < maximum/2
-    puts "Good job, Rachel!"
+    "Good job, Rachel!"
   elsif number > maximum
-    puts "Get back to your animal goals!"
+    "Get back to your animal goals!"
   end
 end
 
@@ -38,8 +38,8 @@ end
 
 def new_animal(puppies, cats)
   if puppies == 0 || cats == 0
-    puts "Good job, Rachel!"
+    "Good job, Rachel!"
   elsif puppies >= 1 && cats >= 1
-    puts "Slow down! No more puppies."
+    "Slow down! No more puppies."
   end
 end
